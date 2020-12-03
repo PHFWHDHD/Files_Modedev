@@ -1,4 +1,4 @@
-local function Niplay(msg)
+local function Reply(msg)
 local text = msg.content_.text_
 
 function Mod(msg)
@@ -41,5 +41,5 @@ end
 
 end
 return {
-Modex = Niplay
+Modex = Reply
 }
